@@ -16,4 +16,4 @@ The fitted non-speech gate returned text on 0 of 64 clips, down from 63 of 64 wi
 
 ## CursorMix
 
-The evaluation separates asking, pointing, teaching, and running desktop tasks. It checks routing into desktop actions on negative requests and verification against recorded screen changes. See the [CursorMix evaluation report](../eval/clicky/results.md) for the aggregate measurements and remaining gates.
+The evaluation separates asking, pointing, teaching, and running desktop tasks. It checks routing into desktop actions on negative requests and verification against recorded screen changes. See the [CursorMix evaluation report](../eval/cursormix/results.md) for the aggregate measurements and remaining gates.

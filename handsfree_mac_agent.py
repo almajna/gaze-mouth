@@ -40,25 +40,25 @@ import numpy as np
 import torch
 from scipy.signal import butter, sosfilt
 
-import gaze_follower_test as gaze
-from audio_arbitration import (Mode, ModeArbitrator, SpeechSource, ContextHotwordBiaser,
+from handsfree import gaze_follower as gaze
+from handsfree.audio_arbitration import (Mode, ModeArbitrator, SpeechSource, ContextHotwordBiaser,
                                filter_whisper_transcript, AudioSpeechDetector, audio_speech_ratios, EarconPlayer,
                                AVAudioEngineEchoCanceler, _speech_power)
-from gaze_engine import (SmoothPursuitCalibrator, FixationLock,
+from handsfree.gaze_engine import (SmoothPursuitCalibrator, FixationLock,
                          GazeFollowerBackend, BlazeGazeBackend, GazeLoupe, OneEuroFilter,
                          HandGestures, SpatialOnboarding, hand_measurements, iris_fraction,
                          solve_head_pose, load_spatial_profile, save_spatial_profile, make_hand_landmarker,
                          iris_vertical, eye_opening, VerticalFusion, ScrollPacer, PassiveClickCalibrator,
                          EYE_FILTER, EYE_OPEN_SHARE, EYE_OPEN_DEFAULT)
-from mac_ui_bridge import (IndexedElement, WindowIndexer, unwrap_ax, quartz_to_cocoa, cocoa_to_quartz, TrackpadHandoffTracker,
+from handsfree.mac_ui_bridge import (IndexedElement, WindowIndexer, unwrap_ax, quartz_to_cocoa, cocoa_to_quartz, TrackpadHandoffTracker,
                            RadialRingMenu, ElasticTether, MenuBar, check_macos_permissions,
                            microphone_authorized, permission_status)
-import agent_planner
-import silent_speech_bench as bench
-import train_silent_model as train
-from capture import extract, make_landmarker
-from eval_silent_speech import MODELS, PROMPT, band_peak_snr, gate, words
-from live_app import Trigger, load_trigger_config
+from handsfree import agent_planner
+from training import silent_speech_bench as bench
+from training import train_silent_model as train
+from training.capture import extract, make_landmarker
+from eval.eval_silent_speech import MODELS, PROMPT, band_peak_snr, gate, words
+from handsfree.trigger import Trigger, load_trigger_config
 
 KEYS = {"new tab": 17, "close tab": 13, "undo typing": 6, "zoom out": 27,
         "select all": 0, "go back": 33, "paste": 9, "undo": 6, "tab": 48}
@@ -626,7 +626,7 @@ def optional_lip_decoder():
 
 @lru_cache(maxsize=1)
 def fallback_lip_decoder():
-    from eval_silent_speech import visual_decoder
+    from eval.eval_silent_speech import visual_decoder
     return visual_decoder("mps" if torch.backends.mps.is_available() else "cpu")
 
 

@@ -20,22 +20,23 @@ models/
 *.safetensors
 *.onnx
 
-# Clicky runtime state, private evaluation inputs, and model downloads
+# CursorMix runtime state, private evaluation inputs, and model downloads
 .venv-clicky/
+.venv-cursormix/
 .env
 .env.*
 *.log
-clicky/**/*.sqlite*
-eval/clicky/logs/
-eval/clicky/fixtures/
-clicky/weights/
-!clicky/models/
-clicky/**/*.png
-clicky/**/*.jpg
-clicky/**/*.jpeg
-eval/clicky/**/*.png
-eval/clicky/**/*.jpg
-eval/clicky/**/*.jpeg
+cursormix/**/*.sqlite*
+eval/cursormix/logs/
+eval/cursormix/fixtures/
+cursormix/weights/
+!cursormix/models/
+cursormix/**/*.png
+cursormix/**/*.jpg
+cursormix/**/*.jpeg
+eval/cursormix/**/*.png
+eval/cursormix/**/*.jpg
+eval/cursormix/**/*.jpeg
 
 /dist/
 

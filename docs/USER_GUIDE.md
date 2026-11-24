@@ -28,31 +28,31 @@ uv pip check --python .venv-gf/bin/python
 
 The lock uses NumPy 2 and a hash-pinned archive of the pending pyctcdecode compatibility patch. GazeFollower and MLX-VLM require `opencv-python`, and the landmark cropper uses `cv2.face` from contrib. Both distributions match the recorder's OpenCV 5.1.0 version. If the landmark import check fails, reinstall the contrib wheel last with `uv pip install --python .venv-gf/bin/python --reinstall-package opencv-contrib-python --no-deps --require-hashes -r requirements.lock`. [pyctcdecode compatibility patch](https://github.com/kensho-technologies/pyctcdecode/pull/118)
 
-Use `setup_assets.py --planner` for Qwen3 and FastVLM. The desktop agent requires the command net, a validated trigger config, and the original fixation recordings or equivalent recordings made through `capture.py` and evaluated with `eval_offline.py`. Run `eval_offline.py` in a fresh workspace or preserve the existing calibration first. It replaces `logs/trigger_config.json` on pass and can remove it on failure. Sentence dictation uses the speaker LoRA under `models/usr2_speaker_lora_v2/` by default. Use the locally trained copy or train a new adapter into a fresh directory and pass `--adapter`. Obtain the recordings and trained local weights separately with authorization. [Asset inventory](../ASSETS.md)
+Use `setup_assets.py --planner` for Qwen3 and FastVLM. The desktop agent requires the command net, a validated trigger config, and the original fixation recordings or equivalent recordings made through `training/capture.py` and evaluated with `eval/eval_offline.py`. Run `eval/eval_offline.py` in a fresh workspace or preserve the existing calibration first. It replaces `logs/trigger_config.json` on pass and can remove it on failure. Sentence dictation uses the speaker LoRA under `models/usr2_speaker_lora_v2/` by default. Use the locally trained copy or train a new adapter into a fresh directory and pass `--adapter`. Obtain the recordings and trained local weights separately with authorization. [Asset inventory](../ASSETS.md)
 
 ## Replay the recorded checks
 
 These commands read recorded data and local weights. They do not use camera, microphone, or live desktop input.
 
 ```sh
-.venv-gf/bin/python gaze_engine.py
-.venv-gf/bin/python verify_audio_locks.py
-.venv-gf/bin/python eval_gaze_scroll.py --compare-scroll session_1 session_3
-.venv-gf/bin/python -m unittest test_usr_tokenizer test_sentence_blitz \
-  test_context_decoder.WordSearchTests test_context_decoder.EndToEndTests \
-  test_handsfree_modes.OpenVocabRoutingTests \
-  test_handsfree_modes.ModeTests.test_active_segment_uses_audio_from_the_recorded_preroll \
-  test_handsfree_modes.ModeTests.test_gaze_paced_scroll_and_click_drift_on_recorded_clips
-.venv-gf/bin/python run_benchmarks.py --json
-.venv-gf/bin/python eval_wer.py --backend usr2 --decode joint --device mps
-.venv-gf/bin/python eval_wer.py --backend usr2 --decode joint --device mps \
+.venv-gf/bin/python -m handsfree.gaze_engine
+.venv-gf/bin/python -m eval.verify_audio_locks
+.venv-gf/bin/python -m eval.eval_gaze_scroll --compare-scroll session_1 session_3
+.venv-gf/bin/python -m unittest tests.test_usr_tokenizer tests.test_sentence_blitz \
+  tests.test_context_decoder.WordSearchTests tests.test_context_decoder.EndToEndTests \
+  tests.test_handsfree_modes.OpenVocabRoutingTests \
+  tests.test_handsfree_modes.ModeTests.test_active_segment_uses_audio_from_the_recorded_preroll \
+  tests.test_handsfree_modes.ModeTests.test_gaze_paced_scroll_and_click_drift_on_recorded_clips
+.venv-gf/bin/python -m eval.run_benchmarks --json
+.venv-gf/bin/python -m eval.eval_wer --backend usr2 --decode joint --device mps
+.venv-gf/bin/python -m eval.eval_wer --backend usr2 --decode joint --device mps \
   --adapter models/usr2_speaker_lora_v2
-.venv-gf/bin/python eval_wer.py --backend usr2 --decode joint --device mps \
+.venv-gf/bin/python -m eval.eval_wer --backend usr2 --decode joint --device mps \
   --adapter models/usr2_speaker_lora_v2 --data data/nonspeech_25hz --min-ctc-tokens 5
 .venv-gf/bin/python live_lipread.py --device mps --replay data/eval_holdout/001.npz
 ```
 
-The replay suite needs the original `data/session_1` through `data/session_3` MP4/NPZ pairs and, for `run_benchmarks.py`, `logs/trigger_config.json`, the original speech sessions, and a take under `data/silent_train/`. The sentence dataset currently has 50 holdout and 260 training archives. Inspect `record_sentences.py --help` for data collection. Clip counts and scores are specific to the local recordings.
+The replay suite needs the original `data/session_1` through `data/session_3` MP4/NPZ pairs and, for `eval/run_benchmarks.py`, `logs/trigger_config.json`, the original speech sessions, and a take under `data/silent_train/`. The sentence dataset currently has 50 holdout and 260 training archives. Inspect `python -m training.record_sentences --help` for data collection. Clip counts and scores are specific to the local recordings.
 
 ## Recorded results
 
@@ -69,15 +69,15 @@ The median time to the first intended downward step increased from 244 ms to 407
 
 | Measurement | Recorded result | Source and scope |
 | --- | --- | --- |
-| Jaw-click false positives | 0/27 | Saved trigger on blink, swallow and look-down clips, `run_benchmarks.py --json`. |
-| Acoustic false locks on silent speech | 0/25 | Leave-one-session-out; whisper recall 11/20. `verify_audio_locks.py`. |
-| USR 2.0 speaker v2 text on non-speech | 63/64 ungated, 0/64 gated | `eval_wer.py` joint decoding on `data/nonspeech_25hz` with the v2 adapter, A/B using `--min-ctc-tokens 5`. These clips were used to choose the gate. |
-| Cross-session gaze quadrant error | 19.06–30.70% per frame; 16.67–30.77% per clip | Six calibration/test directions across three sessions, from `run_benchmarks.py --json`. The metric is quadrant classification error. |
-| Sentence WER, USR 2.0 Base+ joint | 89.78% (334/372) | `eval_wer.py --backend usr2 --decode joint --device mps`. |
+| Jaw-click false positives | 0/27 | Saved trigger on blink, swallow and look-down clips, `python -m eval.run_benchmarks --json`. |
+| Acoustic false locks on silent speech | 0/25 | Leave-one-session-out; whisper recall 11/20. `eval/verify_audio_locks.py`. |
+| USR 2.0 speaker v2 text on non-speech | 63/64 ungated, 0/64 gated | `eval/eval_wer.py` joint decoding on `data/nonspeech_25hz` with the v2 adapter, A/B using `--min-ctc-tokens 5`. These clips were used to choose the gate. |
+| Cross-session gaze quadrant error | 19.06–30.70% per frame; 16.67–30.77% per clip | Six calibration/test directions across three sessions, from `python -m eval.run_benchmarks --json`. The metric is quadrant classification error. |
+| Sentence WER, USR 2.0 Base+ joint | 89.78% (334/372) | `python -m eval.eval_wer --backend usr2 --decode joint --device mps`. |
 | Sentence WER, USR 2.0 speaker v2 joint | 62.37% (232/372) | Same command with `--adapter models/usr2_speaker_lora_v2`. |
-| Open-vocabulary decoder integration | The real test take “open terminal” produced “slower young” | `test_context_decoder.EndToEndTests`. The test checks inference and output structure. |
+| Open-vocabulary decoder integration | The real test take “open terminal” produced “slower young” | `tests.test_context_decoder.EndToEndTests`. The test checks inference and output structure. |
 
-The WER comparisons cover 50 clips from one recording session and one speaker. Cross-session sentence WER remains unmeasured. A `run_benchmarks.py` replay measured CPU Auto-AVSR at 665.14 ms median and 882.98 ms p95 over 20 takes. The gaze stage measured 3.22 ms median and 3.38 ms p95 over 79 frames for Face Landmarker, iris/head features, and quadrant prediction. It excludes MGazeNet, video reads, and display updates. The final lock reproduced the stored crops exactly on `001.npz` in `live_lipread.py --replay`. That single clip took 288 ms after the simulated stop and produced an incorrect transcript. Live end-to-end latency remains unmeasured.
+The WER comparisons cover 50 clips from one recording session and one speaker. Cross-session sentence WER remains unmeasured. A `eval/run_benchmarks.py` replay measured CPU Auto-AVSR at 665.14 ms median and 882.98 ms p95 over 20 takes. The gaze stage measured 3.22 ms median and 3.38 ms p95 over 79 frames for Face Landmarker, iris/head features, and quadrant prediction. It excludes MGazeNet, video reads, and display updates. The final lock reproduced the stored crops exactly on `001.npz` in `live_lipread.py --replay`. That single clip took 288 ms after the simulated stop and produced an incorrect transcript. Live end-to-end latency remains unmeasured.
 
 ## Run sentence dictation
 
@@ -87,7 +87,7 @@ Grant **Camera** access to the launching terminal in **System Settings → Priva
 .venv-gf/bin/python live_lipread.py --device mps
 ```
 
-Use **Space** in the preview to start and stop, **Q** to quit, and `--ger off` to inspect the visual-only transcript. To collect fresh labeled data, create `train_sentences.txt` with one prompt per line and run `.venv-gf/bin/python record_sentences.py --list train_sentences.txt`. Use a separate `eval_holdout_sentences.txt` list and recording session for evaluation. These files are local and ignored by Git. Context correction training also takes a local `--domains` JSON file with a one-based `index` and a `domain` for each training prompt. See `build_ger_data.py` for supported domains. The recorder's preview shows the mouth crop. Press **R** to redo the last clip.
+Use **Space** in the preview to start and stop, **Q** to quit, and `--ger off` to inspect the visual-only transcript. To collect fresh labeled data, create `train_sentences.txt` with one prompt per line and run `.venv-gf/bin/python -m training.record_sentences --list train_sentences.txt`. Use a separate `eval_holdout_sentences.txt` list and recording session for evaluation. These files are local and ignored by Git. Context correction training also takes a local `--domains` JSON file with a one-based `index` and a `domain` for each training prompt. See `training/build_ger_data.py` for supported domains. The recorder's preview shows the mouth crop. Press **R** to redo the last clip.
 
 ## Run the live macOS agent
 
@@ -120,7 +120,7 @@ Look at the text or error and say “read this,” “what's this error,” or �
 
 The app remembers the three most recent fixated regions. After switching apps, say “summarize what I was just looking at” or “copy that error.” Focus a regular text field and say “paste it here” to paste the copied result.
 
-To connect a local MCP server, create `mcp_servers.json` beside `agent_planner.py`. Set the executable and directory to paths on your Mac. The server runs with your local account's permissions. Use `allowedTools` to choose which discovered operations the planner can call.
+To connect a local MCP server, create `mcp_servers.json` at the repository root. Set the executable and directory to paths on your Mac. The server runs with your local account's permissions. Use `allowedTools` to choose which discovered operations the planner can call.
 
 ```json
 {
@@ -163,9 +163,9 @@ CursorMix is a standalone menu-bar assistant. Press **Control–Option–Space (
 From the checkout on macOS with Python 3.12 and `uv` installed:
 
 ```sh
-uv venv --python 3.12 .venv-clicky
-uv pip sync --python .venv-clicky/bin/python --require-hashes clicky/requirements.lock
-.venv-clicky/bin/python -m clicky
+uv venv --python 3.12 .venv-cursormix
+uv pip sync --python .venv-cursormix/bin/python --require-hashes cursormix/requirements.lock
+.venv-cursormix/bin/python -m cursormix
 ```
 
 Set the provider key in the checkout’s gitignored `.env.local` or in the launching shell. CursorMix and its evaluators load `ANTHROPIC_API_KEY` and `OPENAI_API_KEY` from that file. Existing environment values take precedence. **Automatic** uses Claude first when `ANTHROPIC_API_KEY` is set, followed by OpenAI when `OPENAI_API_KEY` is set. With neither key it uses local inference. Select an explicit provider in Settings to override that choice. The first-run walkthrough accepts keys for the current process. For future launches, use the ignored file or the launching environment.
@@ -175,15 +175,15 @@ Set the provider key in the checkout’s gitignored `.env.local` or in the launc
 For offline operation on Apple Silicon, start Ollama. Install the local dependency lock and download the checkpoints once while online:
 
 ```sh
-uv pip sync --python .venv-clicky/bin/python --require-hashes clicky/requirements-local.lock
+uv pip sync --python .venv-cursormix/bin/python --require-hashes cursormix/requirements-local.lock
 ollama pull qwen3:4b
-.venv-clicky/bin/hf download mlx-community/FastVLM-0.5B-bf16
-.venv-clicky/bin/hf download mlx-community/whisper-small.en-mlx config.json weights.npz
+.venv-cursormix/bin/hf download mlx-community/FastVLM-0.5B-bf16
+.venv-cursormix/bin/hf download mlx-community/whisper-small.en-mlx config.json weights.npz
 ```
 
 The local path uses Qwen3-4B for text, FastVLM for screen observations and Whisper for optional dictation. **Local** sends text to Ollama on loopback. Model files stay outside the checkout.
 
-**Settings → Dictation Language** applies to spoken questions and direct dictation. **Provider Default** keeps English for local Whisper and automatic detection for OpenAI. Choose a specific language for short utterances or **Detect Automatically** for multilingual input. For automatic detection or a language other than English with local Whisper, download the multilingual checkpoint once with `.venv-clicky/bin/hf download mlx-community/whisper-small-mlx config.json weights.npz`.
+**Settings → Dictation Language** applies to spoken questions and direct dictation. **Provider Default** keeps English for local Whisper and automatic detection for OpenAI. Choose a specific language for short utterances or **Detect Automatically** for multilingual input. For automatic detection or a language other than English with local Whisper, download the multilingual checkpoint once with `.venv-cursormix/bin/hf download mlx-community/whisper-small-mlx config.json weights.npz`.
 
 Ask “Open the Appearance pane in System Settings” to navigate directly to a pane installed on this Mac. CursorMix checks the resulting window before reporting success.
 
@@ -196,7 +196,7 @@ For a file copy, move or rename, CursorMix prepares an action description contai
 Open **dist/Clicky.app** to start the menu-bar app and its floating pointer. The app bundle contains its own Python runtime and dependencies. To build it locally from the checkout, run the following with the CursorMix environment set up as above.
 
 ```sh
-.venv-clicky/bin/python packaging/clicky/build.py --local --use-checkout-env
+.venv-cursormix/bin/python packaging/cursormix/build.py --local --use-checkout-env
 open dist/Clicky.app
 ```
 
@@ -241,11 +241,11 @@ History stores short request and reply excerpts and, for screen-related turns, t
 ### Verification
 
 ```sh
-.venv-clicky/bin/python -m clicky --check-startup
-.venv-clicky/bin/python -m eval.clicky.corpus --install latency qa router agent
-uv run --no-project --python 3.12 --with pyarrow --with pillow eval/clicky/screen2ax.py
-.venv-clicky/bin/python -m eval.clicky.corpus --install point
-.venv-clicky/bin/python eval/clicky/run_all.py
+.venv-cursormix/bin/python -m cursormix --check-startup
+.venv-cursormix/bin/python -m eval.cursormix.corpus --install latency qa router agent
+uv run --no-project --python 3.12 --with pyarrow --with pillow eval/cursormix/screen2ax.py
+.venv-cursormix/bin/python -m eval.cursormix.corpus --install point
+.venv-cursormix/bin/python eval/cursormix/run_all.py
 ```
 
-The public fixtures cover screen Q&A, latency, negative routing cases, Retina pointing, and scripted desktop task definitions. The full routing, teaching, native pointing, and paired desktop action gates require additional real observations. The suite reports missing evidence as incomplete. See the [measured results](../eval/clicky/results.md) and [final live checks and fixture instructions](../eval/clicky/MANUAL.md).
+The public fixtures cover screen Q&A, latency, negative routing cases, Retina pointing, and scripted desktop task definitions. The full routing, teaching, native pointing, and paired desktop action gates require additional real observations. The suite reports missing evidence as incomplete. See the [measured results](../eval/cursormix/results.md) and [final live checks and fixture instructions](../eval/cursormix/MANUAL.md).
