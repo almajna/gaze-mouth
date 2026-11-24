@@ -1,0 +1,12 @@
+{
+  "figma-frame": ["Figma", "Create a labeled frame.", "Select the Frame tool.", "Draw a frame.", "Rename the frame.", "Add a text layer.", "Enter its label."],
+  "figma-layout": ["Figma", "Build a horizontal auto layout containing two rectangles.", "Draw the first rectangle.", "Draw the second rectangle.", "Select both rectangles.", "Apply auto layout.", "Set horizontal flow.", "Adjust the spacing."],
+  "after-effects-opacity": ["Adobe After Effects", "Animate a solid layer's opacity.", "Create a composition.", "Add a solid layer.", "Reveal the Opacity property.", "Set the first opacity keyframe.", "Move the playhead.", "Set the second opacity value."],
+  "after-effects-still": ["Adobe After Effects", "Queue a still frame for export.", "Open the composition.", "Choose the desired frame.", "Add the frame to the render queue.", "Select the output module.", "Choose a disposable output destination."],
+  "resolve-trim": ["DaVinci Resolve", "Place a local clip on a new timeline and trim its end.", "Open the disposable project.", "Import the clip.", "Create a timeline.", "Place the clip on the timeline.", "Trim the end of the clip."],
+  "resolve-title": ["DaVinci Resolve", "Add a basic title and edit its text.", "Open the Edit page.", "Open Effects.", "Choose a basic title.", "Place it on a video track.", "Edit the title text in Inspector."],
+  "vscode-replace": ["Visual Studio Code", "Replace one occurrence in a scratch file and save it.", "Expand the replacement field.", "Enter the search text.", "Enter the replacement text.", "Replace one match.", "Return focus to the editor.", "Save the document."],
+  "vscode-json": ["Visual Studio Code", "Create, format and save a JSON document.", "Create a new document.", "Open the language mode picker.", "Select JSON.", "Enter a JSON object.", "Format the document.", "Save it."],
+  "settings-sound": ["System Settings", "Inspect the sound outputs, adjust a device and restore the original settings.", "Open Sound.", "Find the output devices.", "Select the test device.", "Adjust its output volume.", "Restore the original device and volume."],
+  "settings-shortcuts": ["System Settings", "Inspect screenshot and Mission Control keyboard shortcuts.", "Open Keyboard.", "Open Keyboard Shortcuts.", "Select Screenshots.", "Inspect a screenshot binding.", "Switch to Mission Control.", "Close the sheet."]
+}

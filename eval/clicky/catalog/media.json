@@ -1,0 +1,917 @@
+[
+  {
+    "path": "public-screens/uEm7t.png",
+    "url": "https://i.sstatic.net/uEm7t.png",
+    "sha256": "7eb914b070cd18bce3ba2f65319454a5a7555e0454e3112e7e669221253ca2ea",
+    "context": "public-screens/255642.json",
+    "metadata": {
+      "app": "iTunes",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/uEm7t.png",
+      "source": "https://apple.stackexchange.com/questions/255642/what-does-this-symbol-in-itunes-mean",
+      "author": "jsejcksn",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/gLQ4D.png",
+    "url": "https://i.sstatic.net/gLQ4D.png",
+    "sha256": "dbb127eb4016dc0f2182ff387b3d77e3780b15f2fa20434bb98318bfffb32da9",
+    "context": "public-screens/55209.json",
+    "metadata": {
+      "app": "",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/gLQ4D.png",
+      "source": "https://apple.stackexchange.com/questions/55209/what-does-this-keyboard-shortcut-symbol-indicate",
+      "author": "rsman",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/rnGCp.jpg",
+    "url": "https://i.sstatic.net/rnGCp.jpg",
+    "sha256": "f47b2a760b29fcc112e82c793f228159eb499141ac00d5761caf1b01f2cc45d3",
+    "context": "public-screens/445439.json",
+    "metadata": {
+      "app": "",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/rnGCp.jpg",
+      "source": "https://apple.stackexchange.com/questions/445439/what-does-this-macos-x-dialog-mean",
+      "author": "Jeremy Friesner",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/cQU6k.png",
+    "url": "https://i.sstatic.net/cQU6k.png",
+    "sha256": "9b6514fb0e48358b3971746ae1feacf18151c40fabd155271457022060549cae",
+    "context": "public-screens/126308.json",
+    "metadata": {
+      "app": "Calendar",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/cQU6k.png",
+      "source": "https://apple.stackexchange.com/questions/126308/what-does-this-icon-that-looks-like-an-askew-wireless-symbol-mean-in-calendar",
+      "author": "user74693",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/7jJcd.png",
+    "url": "https://i.sstatic.net/7jJcd.png",
+    "sha256": "b6858a0ad3d59c42737f71da0e538ad50c2446f3147eba11520ab889366296ed",
+    "context": "public-screens/253295.json",
+    "metadata": {
+      "app": "iTunes",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/7jJcd.png",
+      "source": "https://apple.stackexchange.com/questions/253295/what-does-this-button-do-in-the-itunes-device-sync-status-bar",
+      "author": "Robert",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/SCS7g.png",
+    "url": "https://i.sstatic.net/SCS7g.png",
+    "sha256": "92dab371b16add18da75822510c1a746121d279017faf1c5423f9b4407f612b8",
+    "context": "public-screens/425033.json",
+    "metadata": {
+      "app": "iCloud Photos",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/SCS7g.png",
+      "source": "https://apple.stackexchange.com/questions/425033/what-does-this-no-live-icon-mean-in-the-icloud-photos-web-interface-and-how-c",
+      "author": "Robert",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/f3x29.png",
+    "url": "https://i.sstatic.net/f3x29.png",
+    "sha256": "87470a0ae343eebcb4198c1ec724506db20f0ac0f72ac8753de87fbf91c79be9",
+    "context": "public-screens/142304.json",
+    "metadata": {
+      "app": "iStumbler",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/f3x29.png",
+      "source": "https://apple.stackexchange.com/questions/142304/what-does-this-wifi-trend-by-istumbler-mean",
+      "author": "Render",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/ftvb9.png",
+    "url": "https://i.sstatic.net/ftvb9.png",
+    "sha256": "e013b1eceda838342fff6013e311abd259e2568b54b37c5dc5bbc96f6418ad2e",
+    "context": "public-screens/351127.json",
+    "metadata": {
+      "app": "",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/ftvb9.png",
+      "source": "https://apple.stackexchange.com/questions/351127/what-does-this-popup-mean-new-location-detected-what-application-is-displayi",
+      "author": "jay613",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/BubUk.png",
+    "url": "https://i.sstatic.net/BubUk.png",
+    "sha256": "3b93431a798521dcfac846bc2e6f963d2432a8fb3d988590304e76b99a3652fc",
+    "context": "public-screens/397331.json",
+    "metadata": {
+      "app": "iTunes",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/BubUk.png",
+      "source": "https://apple.stackexchange.com/questions/397331/what-does-this-symbol-mean-in-itunes-next-to-a-song",
+      "author": "Catherine Orfield",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/2XcVG.png",
+    "url": "https://i.sstatic.net/2XcVG.png",
+    "sha256": "483d0e25cb542119c23ac2b5b8d92e26c2af575f285e8bb3bd7c6fe9370568c7",
+    "context": "public-screens/230907.json",
+    "metadata": {
+      "app": "iTunes",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/2XcVG.png",
+      "source": "https://apple.stackexchange.com/questions/230907/what-does-this-black-bar-represent-in-my-ipods-storage-capacity-indicator",
+      "author": "Ghost Koi",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/8GcnL.png",
+    "url": "https://i.sstatic.net/8GcnL.png",
+    "sha256": "994a83852ae0415a248db2c21d8d64dad65ac1044bc469e55c9dec48a77f319b",
+    "context": "public-screens/265065.json",
+    "metadata": {
+      "app": "App Store",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/8GcnL.png",
+      "source": "https://apple.stackexchange.com/questions/265065/what-does-this-japanese-message-in-the-app-store-when-updating-apps-mean",
+      "author": "Dudu",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-0-1.png",
+    "url": "https://i.sstatic.net/sT5z3.png",
+    "sha256": "d7e880f05e6ccf4da2cd31e3a92610d740c728492b2ee6b4731cbb612e6bc029",
+    "context": "public-screens/qa-0-1.json",
+    "metadata": {
+      "app": "Finder",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-0-1.png",
+      "source": "https://apple.stackexchange.com/questions/50508/how-can-i-make-all-folders-in-finder-snap-to-grid",
+      "author": "Nathan",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-0-2.png",
+    "url": "https://i.sstatic.net/UsZGK.png",
+    "sha256": "3a1a574f3f543bf4c407941fa31da6835ef5a34ab3861a6ae2a990fe93cafade",
+    "context": "public-screens/qa-0-2.json",
+    "metadata": {
+      "app": "Finder",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-0-2.png",
+      "source": "https://apple.stackexchange.com/questions/43983/displaying-combined-file-size-of-selected-files-in-finder",
+      "author": "stuffe",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-0-4.png",
+    "url": "https://i.sstatic.net/7WjgC.png",
+    "sha256": "4b6cd2fc3b9f79813bddbfe99bc02a4bfd4f06074df3e6830b2249f3a0fceb7f",
+    "context": "public-screens/qa-0-4.json",
+    "metadata": {
+      "app": "Finder",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-0-4.png",
+      "source": "https://apple.stackexchange.com/questions/242358/how-can-i-change-finders-sidebar-icons-in-macos",
+      "author": "Danijel-James W",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-0-7.jpg",
+    "url": "https://i.sstatic.net/ucYce.jpg",
+    "sha256": "2931f0a3f14688b71170959f79c3a98ce59604f91c82837eb94a9ca8db062116",
+    "context": "public-screens/qa-0-7.json",
+    "metadata": {
+      "app": "Finder",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-0-7.jpg",
+      "source": "https://apple.stackexchange.com/questions/52357/how-to-determine-original-location-of-file-that-is-currently-in-the-trash",
+      "author": "kjo",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-0-10.png",
+    "url": "https://i.sstatic.net/qATSn.png",
+    "sha256": "9aca70ddac4cae38495954236dab8550dd4918d66b57aba3d3c2aebf6f2cc0d9",
+    "context": "public-screens/qa-0-10.json",
+    "metadata": {
+      "app": "Finder",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-0-10.png",
+      "source": "https://apple.stackexchange.com/questions/151201/fetching-behavior-in-finder-open-with-menu-in-yosemite",
+      "author": "fartheraway",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-1-1.png",
+    "url": "https://i.sstatic.net/BkQTT.png",
+    "sha256": "7e398f482e7373ef629e70e2de91966f7cc3515e0ef9e287c4c3cf7cace45ed5",
+    "context": "public-screens/qa-1-1.json",
+    "metadata": {
+      "app": "Safari",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-1-1.png",
+      "source": "https://apple.stackexchange.com/questions/153379/how-do-you-turn-off-the-try-the-new-safari-notification",
+      "author": "Déjà vu",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-1-2.jpg",
+    "url": "https://i.sstatic.net/WERrF.jpg",
+    "sha256": "b58f585790b623cfb31f9ae61e0df27537a73e91851d7f221a4ce9990c164df6",
+    "context": "public-screens/qa-1-2.json",
+    "metadata": {
+      "app": "Safari",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-1-2.jpg",
+      "source": "https://apple.stackexchange.com/questions/265267/how-to-skip-safaris-do-you-want-to-allow-this-page-to-open-x-dialog",
+      "author": "Can Poyrazoğlu",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-1-3.png",
+    "url": "https://i.sstatic.net/fAX5p.png",
+    "sha256": "658deb083bda038e067d95b7bfe0cb60a09e4c4572e6da8138e1937371f39c7c",
+    "context": "public-screens/qa-1-3.json",
+    "metadata": {
+      "app": "Safari",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-1-3.png",
+      "source": "https://apple.stackexchange.com/questions/215077/safari-redirecting-http-to-non-existent-https",
+      "author": "Richard Stelling",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-1-9.png",
+    "url": "https://i.sstatic.net/CMc38.png",
+    "sha256": "37bb9e3a997cc070c56d4af44d41b5904a8962deee86bdf4604fd74da24aeae6",
+    "context": "public-screens/qa-1-9.json",
+    "metadata": {
+      "app": "Safari",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-1-9.png",
+      "source": "https://apple.stackexchange.com/questions/331348/how-to-open-a-zoom-link-in-a-non-browser-app-without-being-prompted",
+      "author": "Merchako",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-2-1.png",
+    "url": "https://i.sstatic.net/dMGh0.png",
+    "sha256": "b64db7f9dfd6408c7e4b972adb145d0745e1a8f6378f7beaf8e93e07b89aa0bb",
+    "context": "public-screens/qa-2-1.json",
+    "metadata": {
+      "app": "Google Chrome",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-2-1.png",
+      "source": "https://superuser.com/questions/1414410/how-to-disable-google-one-tap-sign-up-prompts",
+      "author": "pkamb",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-2-2.png",
+    "url": "https://i.sstatic.net/0mHoq.png",
+    "sha256": "6e242db563ece59380049f4d1625cabcf08fc0202d26022259fb5dd4f7fd55d1",
+    "context": "public-screens/qa-2-2.json",
+    "metadata": {
+      "app": "Google Chrome",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-2-2.png",
+      "source": "https://superuser.com/questions/1160003/how-do-i-change-the-character-encoding-for-a-webpage-in-chrome",
+      "author": "Meshaal",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-2-4.png",
+    "url": "https://i.sstatic.net/r0iOf.png",
+    "sha256": "90d3eb0e8cb2c3a76d333e365f8f786e4e81c4e9a99af79b598af9bf11e73f41",
+    "context": "public-screens/qa-2-4.json",
+    "metadata": {
+      "app": "Google Chrome",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-2-4.png",
+      "source": "https://superuser.com/questions/1083766/how-do-i-deal-with-neterr-cert-authority-invalid-in-chrome",
+      "author": "Richard",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-2-10.png",
+    "url": "https://i.sstatic.net/CZcFn.png",
+    "sha256": "5e03da32dde32fb30d637711794f817c79392361c612166a3b10c0df903eb592",
+    "context": "public-screens/qa-2-10.json",
+    "metadata": {
+      "app": "Google Chrome",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-2-10.png",
+      "source": "https://superuser.com/questions/650313/how-do-i-delete-the-apps-bookmark-in-my-bookmark-bar",
+      "author": "Jon",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-3-0.png",
+    "url": "https://i.sstatic.net/h6yLA.png",
+    "sha256": "578a8cc4c9cee3f7879fb3669b6b6d3c522295144f31d2a4909465bc64eed929",
+    "context": "public-screens/qa-3-0.json",
+    "metadata": {
+      "app": "Terminal",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-3-0.png",
+      "source": "https://apple.stackexchange.com/questions/209635/what-functionality-do-marks-offer-in-the-el-capitan-terminal",
+      "author": "nwinkler",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-3-4.png",
+    "url": "https://i.sstatic.net/2k3je.png",
+    "sha256": "9e26028ac7493896163f799d4c381a276ff97ef8a082bff00298b93672d072ba",
+    "context": "public-screens/qa-3-4.json",
+    "metadata": {
+      "app": "Terminal",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-3-4.png",
+      "source": "https://apple.stackexchange.com/questions/70609/what-does-the-secure-keyboard-entry-menu-item-in-terminal-app-do",
+      "author": "houbysoft",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-3-8.png",
+    "url": "https://i.sstatic.net/71wvC.png",
+    "sha256": "ee0c83fa6d0b5d401086d6f4a2f187bb4f0a09252364a541698a7885658b7adc",
+    "context": "public-screens/qa-3-8.json",
+    "metadata": {
+      "app": "Terminal",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-3-8.png",
+      "source": "https://apple.stackexchange.com/questions/29487/is-it-possible-to-disable-terminals-automatic-tweaking-of-colors-in-lion",
+      "author": "Johan Sahlén",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-4-0.png",
+    "url": "https://i.sstatic.net/9h2A4.png",
+    "sha256": "82a30c8d9abca7f902b1d116ac6b7a9a7b27c928cab94e9a26d204c1b2c14e42",
+    "context": "public-screens/qa-4-0.json",
+    "metadata": {
+      "app": "System Settings",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-4-0.png",
+      "source": "https://apple.stackexchange.com/questions/110525/how-do-i-get-f11-and-f12-to-behave-like-normal-function-keys",
+      "author": "conorgriffin",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-4-2.png",
+    "url": "https://i.sstatic.net/ModVm.png",
+    "sha256": "7a806320bde2bc4628439a1c25d7e0b70e0dc37564396bd8432f2f78dad40705",
+    "context": "public-screens/qa-4-2.json",
+    "metadata": {
+      "app": "System Settings",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-4-2.png",
+      "source": "https://apple.stackexchange.com/questions/403109/what-is-aeserver-and-why-is-it-requesting-macos-accessibility-permissions",
+      "author": "pkamb",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-4-5.png",
+    "url": "https://i.sstatic.net/Ja1a9.png",
+    "sha256": "50dab56ce55c0ca536aa7fdd45093abd44c137992336f769fbe84e92504a7a1a",
+    "context": "public-screens/qa-4-5.json",
+    "metadata": {
+      "app": "System Settings",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-4-5.png",
+      "source": "https://apple.stackexchange.com/questions/84075/remove-an-app-from-notification-center-preference-pane",
+      "author": "Marcus McLean",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-4-6.png",
+    "url": "https://i.sstatic.net/itTqoKPj.png",
+    "sha256": "28fd4012046f4cfc308b922a71125ef02e547a7a967307724993a852cc85e164",
+    "context": "public-screens/qa-4-6.json",
+    "metadata": {
+      "app": "System Settings",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-4-6.png",
+      "source": "https://apple.stackexchange.com/questions/339363/how-can-i-remove-applications-from-privacy-security",
+      "author": "user305944",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-4-8.png",
+    "url": "https://i.sstatic.net/RwZgf.png",
+    "sha256": "091d04e188a66d51edf464c58edb9459c9910ffdfd25277f71738294551a0799",
+    "context": "public-screens/qa-4-8.json",
+    "metadata": {
+      "app": "System Settings",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-4-8.png",
+      "source": "https://apple.stackexchange.com/questions/323668/allow-button-not-working-in-system-preferences",
+      "author": "Abraham",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-4-10.png",
+    "url": "https://i.sstatic.net/sdYN4.png",
+    "sha256": "797fb55accd2af9c11183cf74d6fbe9894ce7177adc6a27158ae24f06d200828",
+    "context": "public-screens/qa-4-10.json",
+    "metadata": {
+      "app": "System Settings",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-4-10.png",
+      "source": "https://apple.stackexchange.com/questions/375808/is-it-possible-to-change-the-screen-display-names-in-macos-for-a-multi-monitor-s",
+      "author": "Marcelo Espinosa",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-5-0.png",
+    "url": "https://i.sstatic.net/azF33.png",
+    "sha256": "4f5c93d6aafe8e1ca3262cfb3d54ba50a9f8ca1376356e959b56a8aeef69ba9e",
+    "context": "public-screens/qa-5-0.json",
+    "metadata": {
+      "app": "Mail",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-5-0.png",
+      "source": "https://apple.stackexchange.com/questions/261881/set-default-mail-client-in-macos-without-adding-an-email-account",
+      "author": "Daniel Watrous",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-5-1.png",
+    "url": "https://i.sstatic.net/2JIYj.png",
+    "sha256": "04fe53388e14a165c1a724972c192107f9822a620544dfd8e6297b8fb4b4b4f1",
+    "context": "public-screens/qa-5-1.json",
+    "metadata": {
+      "app": "Mail",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-5-1.png",
+      "source": "https://apple.stackexchange.com/questions/254715/unable-to-verify-account-name-or-password-despite-using-correct-details",
+      "author": "Monomeeth",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-5-4.png",
+    "url": "https://i.sstatic.net/0BwlB.png",
+    "sha256": "ef18c616873ef600a94d68ae9e57719c6d672d302df0f87f062dda6e44eddad4",
+    "context": "public-screens/qa-5-4.json",
+    "metadata": {
+      "app": "Mail",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-5-4.png",
+      "source": "https://apple.stackexchange.com/questions/111881/default-email-signing-with-os-x-mail",
+      "author": "Matteo",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-5-6.png",
+    "url": "https://i.sstatic.net/ZPQMo.png",
+    "sha256": "676a7bbefbc50a9ba7c532d584ba4821c010a803d5572779060964b6f6f98660",
+    "context": "public-screens/qa-5-6.json",
+    "metadata": {
+      "app": "Mail",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-5-6.png",
+      "source": "https://apple.stackexchange.com/questions/437023/how-to-always-show-full-email-address-of-sender-and-recipients-in-apple-mail",
+      "author": "WestCoastProjects",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-5-7.png",
+    "url": "https://i.sstatic.net/VzHOf.png",
+    "sha256": "236094349183e745bac55af93c83f1aee08f042832b3aa30172f56612e16a585",
+    "context": "public-screens/qa-5-7.json",
+    "metadata": {
+      "app": "Mail",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-5-7.png",
+      "source": "https://apple.stackexchange.com/questions/261533/can-i-cancel-this-neverending-message-move-in-mail-app",
+      "author": "Mattie B",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-6-0.png",
+    "url": "https://i.sstatic.net/UP3AK.png",
+    "sha256": "f057e3bad2037794206e69f43a3655a19f2dbdb35bda71a5dd7262fe1b7380f4",
+    "context": "public-screens/qa-6-0.json",
+    "metadata": {
+      "app": "Notes",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-6-0.png",
+      "source": "https://apple.stackexchange.com/questions/351735/change-width-of-a-column-in-a-table-in-notes-app-on-a-mac",
+      "author": "Basil Bourque",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-6-1.png",
+    "url": "https://i.sstatic.net/qKxok.png",
+    "sha256": "e08d9e65abdf309b91a879735498e7331223e645eda7a57942c3097da3913450",
+    "context": "public-screens/qa-6-1.json",
+    "metadata": {
+      "app": "Notes",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-6-1.png",
+      "source": "https://apple.stackexchange.com/questions/421544/how-can-i-make-a-keyboard-shortcut-to-strikethrough-text-in-the-notes-app",
+      "author": "teradyl",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-6-2.jpg",
+    "url": "https://i.sstatic.net/848Pn.jpg",
+    "sha256": "73a52f48b93f8c7222e172aa4808b65335bfd10a63a53993246924be13cfe58c",
+    "context": "public-screens/qa-6-2.json",
+    "metadata": {
+      "app": "Notes",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-6-2.jpg",
+      "source": "https://apple.stackexchange.com/questions/305156/how-do-i-resize-an-image-in-notes",
+      "author": "SparkAndShine",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-6-3.png",
+    "url": "https://i.sstatic.net/4YK9A.png",
+    "sha256": "e5d8af07ca4616751bccedb878c50a937aa81b414fec5e1c19a9b4f8b7a2b36f",
+    "context": "public-screens/qa-6-3.json",
+    "metadata": {
+      "app": "Notes",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-6-3.png",
+      "source": "https://apple.stackexchange.com/questions/269510/how-to-change-hyperlink-color-in-macos-notes",
+      "author": "Christopher",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-7-1.png",
+    "url": "https://i.sstatic.net/yoXgBm.png",
+    "sha256": "5b833a61837e01a93c4924386f380786a25e598b2d2c85ecc5a52e51ec7b2cb0",
+    "context": "public-screens/qa-7-1.json",
+    "metadata": {
+      "app": "Calendar",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-7-1.png",
+      "source": "https://apple.stackexchange.com/questions/295399/increasing-the-number-of-reminder-snooze-options-in-macos",
+      "author": "Audioglass",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-7-3.png",
+    "url": "https://i.sstatic.net/fSugt.png",
+    "sha256": "46ae4b9e596f41f468c1c50a9a8050fbcbc17fc2317e1a1a18e8ac7ba77c6754",
+    "context": "public-screens/qa-7-3.json",
+    "metadata": {
+      "app": "Calendar",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-7-3.png",
+      "source": "https://apple.stackexchange.com/questions/180513/quick-way-to-clear-calendar-invitations",
+      "author": "erotsppa",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-7-5.png",
+    "url": "https://i.sstatic.net/PtlLL.png",
+    "sha256": "48ce70bb35e5253ebfc75575422c46bf1aea0dc907ec36e6b38bb49dede05227",
+    "context": "public-screens/qa-7-5.json",
+    "metadata": {
+      "app": "Calendar",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-7-5.png",
+      "source": "https://apple.stackexchange.com/questions/438481/disable-email-organizer-by-default-in-microsoft-outlook-email-meeting-invites",
+      "author": "pkamb",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-7-8.png",
+    "url": "https://i.sstatic.net/Idto0.png",
+    "sha256": "ce5529ef78d1438037763617d8703fcf90b1aac2fb97759b2f88e77df6eeea52",
+    "context": "public-screens/qa-7-8.json",
+    "metadata": {
+      "app": "Calendar",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-7-8.png",
+      "source": "https://apple.stackexchange.com/questions/452567/setting-different-start-and-end-timezone-when-creating-new-event-in-calendar",
+      "author": "mikro098",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-7-11.png",
+    "url": "https://i.sstatic.net/g39Hw.png",
+    "sha256": "8e7e2ca97328aa17a7bdb2d25047f31d59f51e4b5798d7087dfb084c6c2475ef",
+    "context": "public-screens/qa-7-11.json",
+    "metadata": {
+      "app": "Calendar",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-7-11.png",
+      "source": "https://apple.stackexchange.com/questions/323631/how-to-change-the-9am-default-for-all-day-calendar-events",
+      "author": "iconoclast",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-8-0.png",
+    "url": "https://i.sstatic.net/zcoRW.png",
+    "sha256": "2383a5bc104da84c96f6e6db753ade18077218c5f619c35a7aafa709e7c7efd0",
+    "context": "public-screens/qa-8-0.json",
+    "metadata": {
+      "app": "Visual Studio Code",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-8-0.png",
+      "source": "https://superuser.com/questions/912654/how-to-remove-folders-from-visual-studio-code",
+      "author": "val kharitonashvili",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-8-1.png",
+    "url": "https://i.sstatic.net/cD1lj.png",
+    "sha256": "4b82413066dabea74ba04bc828c10cc07a74a7ba473d01b4a9cc82e07efbf338",
+    "context": "public-screens/qa-8-1.json",
+    "metadata": {
+      "app": "Visual Studio Code",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-8-1.png",
+      "source": "https://superuser.com/questions/1330548/move-visual-studio-code-panel-from-right-to-bottom",
+      "author": "hanxue",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-8-2.gif",
+    "url": "https://i.sstatic.net/EvTPj.gif",
+    "sha256": "b53b51ed18500d17b2f4ef976aeca14a17d87be64e4cb7687ed52db31e0f944b",
+    "context": "public-screens/qa-8-2.json",
+    "metadata": {
+      "app": "Visual Studio Code",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-8-2.gif",
+      "source": "https://superuser.com/questions/1417361/how-to-disable-file-filtering-in-vs-code-sidebar-explorer",
+      "author": "Joshua Kleckner",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-8-3.png",
+    "url": "https://i.sstatic.net/3oVM0.png",
+    "sha256": "2a56b2c5363122e9f6f6122463d43ee95e8c2fa5937da84126e2fce22c626dbe",
+    "context": "public-screens/qa-8-3.json",
+    "metadata": {
+      "app": "Visual Studio Code",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-8-3.png",
+      "source": "https://superuser.com/questions/1228596/visual-studio-code-disable-sidebar-code-slider-thing",
+      "author": "Dave",
+      "license": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-8-4.png",
+    "url": "https://i.sstatic.net/pualZ.png",
+    "sha256": "843a0d8fc590a8ff751a5e47f205e74f1eab764065fe28f38dbe476367129b6b",
+    "context": "public-screens/qa-8-4.json",
+    "metadata": {
+      "app": "Visual Studio Code",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-8-4.png",
+      "source": "https://superuser.com/questions/1393186/how-to-disable-psscriptanalyzers-psavoidusingcmdletaliases-in-powershell-extens",
+      "author": "SimonS",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-9-0.png",
+    "url": "https://i.sstatic.net/1QOPd.png",
+    "sha256": "02fe87dce33a5303a66bbcce2ed5438fbe4218a3b3d76d937b0510c7f4f30378",
+    "context": "public-screens/qa-9-0.json",
+    "metadata": {
+      "app": "Figma",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-9-0.png",
+      "source": "https://stackoverflow.com/questions/74888057/how-to-prevent-figma-agent-to-be-added-to-login-items",
+      "author": "Vicente Garcia",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-9-4.png",
+    "url": "https://i.sstatic.net/WZoaB.png",
+    "sha256": "7ab5e6137a9dac987548e944aeb2496bce720e0a7a45ab5814aca9fbb0120a73",
+    "context": "public-screens/qa-9-4.json",
+    "metadata": {
+      "app": "Figma",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-9-4.png",
+      "source": "https://stackoverflow.com/questions/77310042/why-is-the-font-in-figma-different-than-the-one-on-the-web",
+      "author": "mikael khalil",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-9-7.png",
+    "url": "https://i.sstatic.net/sNsyh.png",
+    "sha256": "68de02609baf219037054f7c292ab038f25e3204f423594483b51eabc495a032",
+    "context": "public-screens/qa-9-7.json",
+    "metadata": {
+      "app": "Figma",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-9-7.png",
+      "source": "https://stackoverflow.com/questions/67126131/how-to-export-element-as-png-or-jpeg-using-figma-rest-apis",
+      "author": "Abhishek Kulkarni",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-9-8.jpg",
+    "url": "https://i.sstatic.net/yK5pq.jpg",
+    "sha256": "da53af602df22897df6007653c0e737a8b8049ab78ec846467020c1e5e55ab33",
+    "context": "public-screens/qa-9-8.json",
+    "metadata": {
+      "app": "Figma",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-9-8.jpg",
+      "source": "https://stackoverflow.com/questions/75084196/a-better-way-to-convert-a-coordinate-space-to-alignment",
+      "author": "Saad Ardati",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-10-1.png",
+    "url": "https://i.sstatic.net/mv3qY.png",
+    "sha256": "25e579ccac182b86da4a11ac6a007f4b3c6347efab9f202ff2bd167cbf750d41",
+    "context": "public-screens/qa-10-1.json",
+    "metadata": {
+      "app": "Slack",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-10-1.png",
+      "source": "https://superuser.com/questions/1582703/my-slack-app-redirects-to-the-browser-how-can-i-prevent-this",
+      "author": "TheMightyLlama",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-10-2.png",
+    "url": "https://i.sstatic.net/j9Msu.png",
+    "sha256": "4798cda82adfb6c9cd0cf3257dc75202c02ad3c81ff199902a8937474378c7bf",
+    "context": "public-screens/qa-10-2.json",
+    "metadata": {
+      "app": "Slack",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-10-2.png",
+      "source": "https://superuser.com/questions/1680098/prevent-block-slacks-default-redirect-to-native-app",
+      "author": "kapad",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-10-4.png",
+    "url": "https://i.sstatic.net/cDuE3.png",
+    "sha256": "65714e536b243f8ff400f8b5e3f57a22003cafc60b70d94b370da5615c619366",
+    "context": "public-screens/qa-10-4.json",
+    "metadata": {
+      "app": "Slack",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-10-4.png",
+      "source": "https://superuser.com/questions/1453832/slack-desktop-wont-open-on-login",
+      "author": "Nassign",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-10-8.png",
+    "url": "https://i.sstatic.net/a8HeJ.png",
+    "sha256": "4f3136d20a51bb1b169dd6a13a086c99bba8e668741499404227322f3819fc7d",
+    "context": "public-screens/qa-10-8.json",
+    "metadata": {
+      "app": "Slack",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-10-8.png",
+      "source": "https://superuser.com/questions/1656388/slack-on-macos-keeping-sidebar-open",
+      "author": "watsonic",
+      "license": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "path": "public-screens/qa-10-9.png",
+    "url": "https://i.sstatic.net/vC2nY.png",
+    "sha256": "b01f3299f1b557c11238cdfed867b1ee93f00c4d2a2ae02ba6df4df9ef2c1012",
+    "context": "public-screens/qa-10-9.json",
+    "metadata": {
+      "app": "Slack",
+      "title": "",
+      "elements": [],
+      "image": "public-screens/qa-10-9.png",
+      "source": "https://superuser.com/questions/1105748/how-to-force-slack-to-reconnect",
+      "author": "Nate Barbettini",
+      "license": "CC BY-SA 3.0"
+    }
+  }
+]

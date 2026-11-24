@@ -1,0 +1,20 @@
+shortcut: Control Option Space
+dictationShortcut: "Off"
+dictationLanguage: default
+dictationSpellings: ""
+provider: Automatic
+answerStyle: Standard
+suggestFollowups: true
+screenContext: true
+floatingPointer: true
+displayHome: true
+pointerColor: Amber
+pointing: true
+teaching: true
+agentTasks: true
+history: true
+retentionDays: 30
+passive: false
+nudges: false
+voice: true
+spokenReplies: false

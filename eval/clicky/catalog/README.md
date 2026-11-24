@@ -1,0 +1,11 @@
+# CursorMix evaluation cases
+
+The bundled router set contains 76 published Ask Different questions. The original full routing evaluation also used a private recording session. The public subset can measure false activations on these questions and cannot satisfy the full routing gate. Each public question retains its author, source URL and license.
+
+The latency set contains 39 text questions and 11 questions with their original screen images. The Q&A set contains 50 distinct original screen images across eleven apps. Its questions and references were written by inspecting the images before evaluation. The public screenshots provide pixels, without native AX trees or display-scale metadata. Image URLs, SHA-256 digests and source credits are in [media.json](media.json).
+
+Post authors retain their applicable Creative Commons Attribution–ShareAlike license for their text and images. The included metadata identifies the version for each source. The installer downloads public images to the ignored evaluation directory. [Stack Exchange licensing](https://stackoverflow.com/help/licensing) · [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/) · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+The 90 public pointing cases use independently worded requests and reference AX node indexes from the first shard of the Screen2AX-Tree training split by Viktor Muryn, Marta Sumyk, Mariya Hirna, Sofiya Garkot and Maksym Shamrai. The source pairs a window screenshot with a native accessibility tree. Each selected image measures exactly two pixels per logical window point in both dimensions. The loader translates the window-relative child bounds to global points and uses the window crop for visual fallback. The ten native 1× cases in the original evaluation require separately supplied native recordings. [Screen2AX-Tree, Apache 2.0](https://huggingface.co/datasets/macpaw-research/Screen2AX-Tree) · [Paper](https://arxiv.org/abs/2507.16704)
+
+The agent set defines 20 repeatable desktop tasks, setup instructions and observable start and end conditions. A case earns a result only from a recorded run against the real desktop. The run and cancellation trial each require the same start state.

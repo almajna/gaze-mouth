@@ -1,0 +1,30 @@
+# Resolve on Apple Silicon macOS with Python 3.12.
+numpy>=2.2,<3
+scipy
+opencv-python==5.1.0.95
+opencv-contrib-python==5.1.0.95
+mediapipe==1.2.3
+gazefollower==1.1.0
+scikit-learn
+pygame
+sounddevice
+torch
+torchvision
+torchaudio
+six
+cmudict
+safetensors
+# Upstream PR #118 changes only the NumPy upper bound. Pin its archive and hash.
+pyctcdecode @ https://github.com/kho/pyctcdecode/archive/25496dfb81f1eb54ce7bb4fd5ba1633951539560.tar.gz
+kenlm==0.3.0
+mlx-lm
+mlx-whisper
+mlx-vlm==0.8.0
+timm
+pillow
+huggingface-hub
+gdown
+pyobjc-framework-Cocoa
+pyobjc-framework-ApplicationServices
+pyobjc-framework-Quartz
+pyobjc-framework-AVFoundation

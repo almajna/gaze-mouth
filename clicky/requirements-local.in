@@ -1,0 +1,4 @@
+-r requirements.in
+mlx-vlm==0.8.0
+mlx-whisper==0.4.3
+timm

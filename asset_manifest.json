@@ -1,0 +1,186 @@
+{
+  "repositories": {
+    "models/usr2": [
+      "https://github.com/ahaliassos/usr2.git",
+      "e9e9c94e8d827efbb28e9a4b9d5d2d97a583b129"
+    ],
+    "models/auto_avsr": [
+      "https://github.com/mpc001/auto_avsr.git",
+      "182b62837773ab01052d4ac21ef1d2203ea7d267"
+    ]
+  },
+  "files": {
+    "face_landmarker.task": [
+      "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task",
+      "sha256:64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff"
+    ],
+    "models/hand_landmarker.task": [
+      "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
+      "sha256:fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1"
+    ],
+    "models/lbfmodel.yaml": [
+      "https://raw.githubusercontent.com/kurnianggoro/GSOC2017/252614093b29280c549351971d44d71e63c9197c/data/lbfmodel.yaml",
+      "sha256:70dd8b1657c42d1595d6bd13d97d932877b3bed54a95d3c4733a0f740d1fd66b"
+    ],
+    "models/usr2/baseplus.pth": [
+      "https://drive.usercontent.google.com/download?id=18vmJjdem5XPOA8bmizybIW5sLJuHMdRR&export=download&confirm=t",
+      "sha256:4ab1f3f230aa6a724bcc698db8a17f2f54919136d2885c1a07a6b69247012773"
+    ],
+    "models/auto_avsr/vsr.pth": [
+      "https://drive.usercontent.google.com/download?id=1r1kx7l9sWnDOCnaFHIGvOtzuhFyFA88_&export=download&confirm=t",
+      "sha256:fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb"
+    ],
+    "models/english-4gram.bin": [
+      "https://huggingface.co/patrickvonplaten/wav2vec2-base-100h-with-lm/resolve/0612413f4d1532f2e50c039b2f014722ea59db4e/language_model/4-gram.bin",
+      "sha256:e674d4a61df15bef37cd49183dc4fb087aaa3d7819d0ff8347068a880f033c61"
+    ],
+    "models/english-4gram-unigrams.txt": [
+      "https://huggingface.co/patrickvonplaten/wav2vec2-base-100h-with-lm/resolve/0612413f4d1532f2e50c039b2f014722ea59db4e/language_model/unigrams.txt",
+      "sha256:e77a6f780b26d2b778635496a141f0d7b1c7d22e9a7f12e7a5966c1e7a0fd072"
+    ],
+    "models/whisper-small.en-mlx/weights.npz": [
+      "https://huggingface.co/mlx-community/whisper-small.en-mlx/resolve/52a88bf6e98b114a210c21bb83e22d6e1505cb73/weights.npz",
+      "sha256:1bb29b030aca711a035f7a084a0eefac6251ecc2bdd356fa748858fbad082f5a"
+    ],
+    "models/whisper-small.en-mlx/config.json": [
+      "https://huggingface.co/mlx-community/whisper-small.en-mlx/resolve/52a88bf6e98b114a210c21bb83e22d6e1505cb73/config.json",
+      "sha256:40028e43687458e79ba89cc16bf14184c5414a5cbc00fd511f8f78d138647afd"
+    ],
+    "models/whisper-large-v3-turbo/weights.safetensors": [
+      "https://huggingface.co/mlx-community/whisper-large-v3-turbo/resolve/a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb/weights.safetensors",
+      "sha256:951ed3fc1203e6a62467abb2144a96ce7eafca8fa77e3704fdb8635ff3e7f8a6"
+    ],
+    "models/whisper-large-v3-turbo/config.json": [
+      "https://huggingface.co/mlx-community/whisper-large-v3-turbo/resolve/a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb/config.json",
+      "sha256:b34fc29e4e11e0a25e812775dd67f4dd16fc2c8eb43d28ae25ff7d660ecb6379"
+    ],
+    "models/Qwen2.5-3B-Instruct-4bit/added_tokens.json": [
+      "https://huggingface.co/mlx-community/Qwen2.5-3B-Instruct-4bit/resolve/4f83f8f146fdf28b512a06562b671d7af4fab457/added_tokens.json",
+      "git-blob:482ced4679301bf287ebb310bdd1790eb4514232"
+    ],
+    "models/Qwen2.5-3B-Instruct-4bit/config.json": [
+      "https://huggingface.co/mlx-community/Qwen2.5-3B-Instruct-4bit/resolve/4f83f8f146fdf28b512a06562b671d7af4fab457/config.json",
+      "git-blob:52de1c37b6e5c5f74d43973c65779cea39b4b7a7"
+    ],
+    "models/Qwen2.5-3B-Instruct-4bit/merges.txt": [
+      "https://huggingface.co/mlx-community/Qwen2.5-3B-Instruct-4bit/resolve/4f83f8f146fdf28b512a06562b671d7af4fab457/merges.txt",
+      "git-blob:31349551d90c7606f325fe0f11bbb8bd5fa0d7c7"
+    ],
+    "models/Qwen2.5-3B-Instruct-4bit/model.safetensors": [
+      "https://huggingface.co/mlx-community/Qwen2.5-3B-Instruct-4bit/resolve/4f83f8f146fdf28b512a06562b671d7af4fab457/model.safetensors",
+      "sha256:f212cf6fb9923281a09c135e05d43a052ee5ef7121f5b1dc0b0fb2de80f97cfd"
+    ],
+    "models/Qwen2.5-3B-Instruct-4bit/model.safetensors.index.json": [
+      "https://huggingface.co/mlx-community/Qwen2.5-3B-Instruct-4bit/resolve/4f83f8f146fdf28b512a06562b671d7af4fab457/model.safetensors.index.json",
+      "git-blob:89782d927f12268bc0b4df90e22cb686a017fb22"
+    ],
+    "models/Qwen2.5-3B-Instruct-4bit/special_tokens_map.json": [
+      "https://huggingface.co/mlx-community/Qwen2.5-3B-Instruct-4bit/resolve/4f83f8f146fdf28b512a06562b671d7af4fab457/special_tokens_map.json",
+      "git-blob:ac23c0aaa2434523c494330aeb79c58395378103"
+    ],
+    "models/Qwen2.5-3B-Instruct-4bit/tokenizer.json": [
+      "https://huggingface.co/mlx-community/Qwen2.5-3B-Instruct-4bit/resolve/4f83f8f146fdf28b512a06562b671d7af4fab457/tokenizer.json",
+      "git-blob:d24314ef7f0afd1b678c2e24c767e19f24f86b0e"
+    ],
+    "models/Qwen2.5-3B-Instruct-4bit/tokenizer_config.json": [
+      "https://huggingface.co/mlx-community/Qwen2.5-3B-Instruct-4bit/resolve/4f83f8f146fdf28b512a06562b671d7af4fab457/tokenizer_config.json",
+      "git-blob:482ccbc1096b0e9400e86e33f189681c2aebdab9"
+    ],
+    "models/Qwen2.5-3B-Instruct-4bit/vocab.json": [
+      "https://huggingface.co/mlx-community/Qwen2.5-3B-Instruct-4bit/resolve/4f83f8f146fdf28b512a06562b671d7af4fab457/vocab.json",
+      "git-blob:4783fe10ac3adce15ac8f358ef5462739852c569"
+    ],
+    "models/Qwen3-4B-Instruct-2507-4bit/added_tokens.json": [
+      "https://huggingface.co/mlx-community/Qwen3-4B-Instruct-2507-4bit/resolve/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b/added_tokens.json",
+      "git-blob:b54f9135e44c1e81047e8d05cb027af8bc039eed"
+    ],
+    "models/Qwen3-4B-Instruct-2507-4bit/chat_template.jinja": [
+      "https://huggingface.co/mlx-community/Qwen3-4B-Instruct-2507-4bit/resolve/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b/chat_template.jinja",
+      "git-blob:a18870ad4ba26ac6c43758fc506c1bb6ff206bb4"
+    ],
+    "models/Qwen3-4B-Instruct-2507-4bit/config.json": [
+      "https://huggingface.co/mlx-community/Qwen3-4B-Instruct-2507-4bit/resolve/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b/config.json",
+      "git-blob:ce8b8eccd1cdf6d8a30767f58e8ff858dd15eab5"
+    ],
+    "models/Qwen3-4B-Instruct-2507-4bit/generation_config.json": [
+      "https://huggingface.co/mlx-community/Qwen3-4B-Instruct-2507-4bit/resolve/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b/generation_config.json",
+      "git-blob:432531a002c181a19de338313d2375e9d7494d7e"
+    ],
+    "models/Qwen3-4B-Instruct-2507-4bit/merges.txt": [
+      "https://huggingface.co/mlx-community/Qwen3-4B-Instruct-2507-4bit/resolve/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b/merges.txt",
+      "git-blob:31349551d90c7606f325fe0f11bbb8bd5fa0d7c7"
+    ],
+    "models/Qwen3-4B-Instruct-2507-4bit/model.safetensors": [
+      "https://huggingface.co/mlx-community/Qwen3-4B-Instruct-2507-4bit/resolve/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b/model.safetensors",
+      "sha256:2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f"
+    ],
+    "models/Qwen3-4B-Instruct-2507-4bit/model.safetensors.index.json": [
+      "https://huggingface.co/mlx-community/Qwen3-4B-Instruct-2507-4bit/resolve/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b/model.safetensors.index.json",
+      "git-blob:4741a210f9920c2949ca73bbb2a7ce9583e7fd83"
+    ],
+    "models/Qwen3-4B-Instruct-2507-4bit/special_tokens_map.json": [
+      "https://huggingface.co/mlx-community/Qwen3-4B-Instruct-2507-4bit/resolve/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b/special_tokens_map.json",
+      "git-blob:ac23c0aaa2434523c494330aeb79c58395378103"
+    ],
+    "models/Qwen3-4B-Instruct-2507-4bit/tokenizer.json": [
+      "https://huggingface.co/mlx-community/Qwen3-4B-Instruct-2507-4bit/resolve/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b/tokenizer.json",
+      "sha256:aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    ],
+    "models/Qwen3-4B-Instruct-2507-4bit/tokenizer_config.json": [
+      "https://huggingface.co/mlx-community/Qwen3-4B-Instruct-2507-4bit/resolve/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b/tokenizer_config.json",
+      "git-blob:474bbcd82077828bdec32b8dbc1826cdff2a792a"
+    ],
+    "models/Qwen3-4B-Instruct-2507-4bit/vocab.json": [
+      "https://huggingface.co/mlx-community/Qwen3-4B-Instruct-2507-4bit/resolve/50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b/vocab.json",
+      "git-blob:4783fe10ac3adce15ac8f358ef5462739852c569"
+    ],
+    "models/FastVLM-0.5B-bf16/added_tokens.json": [
+      "https://huggingface.co/mlx-community/FastVLM-0.5B-bf16/resolve/81ffe929046666c43de53691147b1669ba0f3a4c/added_tokens.json",
+      "git-blob:409be9f93d4810d569098a16c4bf30c977edf44a"
+    ],
+    "models/FastVLM-0.5B-bf16/chat_template.jinja": [
+      "https://huggingface.co/mlx-community/FastVLM-0.5B-bf16/resolve/81ffe929046666c43de53691147b1669ba0f3a4c/chat_template.jinja",
+      "git-blob:749e69ab8b422fe0b3f9c35917cbe7e651e45ba4"
+    ],
+    "models/FastVLM-0.5B-bf16/config.json": [
+      "https://huggingface.co/mlx-community/FastVLM-0.5B-bf16/resolve/81ffe929046666c43de53691147b1669ba0f3a4c/config.json",
+      "git-blob:b3592df1ac82fd685e51a73f0a7883aa7ccd2055"
+    ],
+    "models/FastVLM-0.5B-bf16/merges.txt": [
+      "https://huggingface.co/mlx-community/FastVLM-0.5B-bf16/resolve/81ffe929046666c43de53691147b1669ba0f3a4c/merges.txt",
+      "git-blob:8488ce08857fb9abc0dd05fd9f399d6d0234686f"
+    ],
+    "models/FastVLM-0.5B-bf16/model.safetensors": [
+      "https://huggingface.co/mlx-community/FastVLM-0.5B-bf16/resolve/81ffe929046666c43de53691147b1669ba0f3a4c/model.safetensors",
+      "sha256:cf7eafb090c64f4bef1a8ba959903a34dc58919170ad506e750e57643bff9bcd"
+    ],
+    "models/FastVLM-0.5B-bf16/model.safetensors.index.json": [
+      "https://huggingface.co/mlx-community/FastVLM-0.5B-bf16/resolve/81ffe929046666c43de53691147b1669ba0f3a4c/model.safetensors.index.json",
+      "git-blob:5e836608f97f913d643f8fc712b39d5fcfbdcaa1"
+    ],
+    "models/FastVLM-0.5B-bf16/preprocessor_config.json": [
+      "https://huggingface.co/mlx-community/FastVLM-0.5B-bf16/resolve/81ffe929046666c43de53691147b1669ba0f3a4c/preprocessor_config.json",
+      "git-blob:65d456d190642d3f391e6e71226b12a7cfd6fed5"
+    ],
+    "models/FastVLM-0.5B-bf16/processor_config.json": [
+      "https://huggingface.co/mlx-community/FastVLM-0.5B-bf16/resolve/81ffe929046666c43de53691147b1669ba0f3a4c/processor_config.json",
+      "git-blob:1377822081332876fe4032737ad6339ef1d2e947"
+    ],
+    "models/FastVLM-0.5B-bf16/special_tokens_map.json": [
+      "https://huggingface.co/mlx-community/FastVLM-0.5B-bf16/resolve/81ffe929046666c43de53691147b1669ba0f3a4c/special_tokens_map.json",
+      "git-blob:2c53454aff27c6d22873cc28c884c2b2d5d07693"
+    ],
+    "models/FastVLM-0.5B-bf16/tokenizer.json": [
+      "https://huggingface.co/mlx-community/FastVLM-0.5B-bf16/resolve/81ffe929046666c43de53691147b1669ba0f3a4c/tokenizer.json",
+      "sha256:22a32bc7af1fc17ed370988966140a379f0421b0a508e4ae3fe4bcf7a86644e1"
+    ],
+    "models/FastVLM-0.5B-bf16/tokenizer_config.json": [
+      "https://huggingface.co/mlx-community/FastVLM-0.5B-bf16/resolve/81ffe929046666c43de53691147b1669ba0f3a4c/tokenizer_config.json",
+      "git-blob:690855c3e18cb5391416ecf3fd7d6e486d8f6753"
+    ],
+    "models/FastVLM-0.5B-bf16/vocab.json": [
+      "https://huggingface.co/mlx-community/FastVLM-0.5B-bf16/resolve/81ffe929046666c43de53691147b1669ba0f3a4c/vocab.json",
+      "git-blob:4783fe10ac3adce15ac8f358ef5462739852c569"
+    ]
+  }
+}

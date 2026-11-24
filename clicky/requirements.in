@@ -1,0 +1,12 @@
+# Standalone macOS client. Keep versions compatible with the root hash lock.
+pyobjc-framework-Cocoa==13.0
+pyobjc-framework-SceneKit==13.0
+pyobjc-framework-Vision==13.0
+pyyaml==6.0.4
+pyobjc-framework-ApplicationServices==13.0
+pyobjc-framework-ScreenCaptureKit==13.0
+pyobjc-framework-AVFoundation==13.0
+httpx==0.28.1
+mss
+pillow==13.0.0
+numpy==2.5.5
